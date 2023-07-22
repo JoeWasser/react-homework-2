@@ -1,31 +1,4 @@
-// import './App.css'
-// import {useState} from "react";
-// import {Square} from "./components/Square/Square.jsx";
-//
-//
-// export default function App() {
-//
-//     const [color1, setColor1] = useState("blue")
-//     const [color2, setColor2] = useState("red")
-//
-//     const handle1 = () => {
-//         setColor1(color1 === "blue" ? "red" : "blue")
-//         setColor2(color2 === "red" ? "blue" : "red")
-//     }
-//
-//    
-//     const handle2 = () => {
-//         setColor1(color1 === "red" ? "blue" : "red")
-//         setColor2(color2=== "blue" ? "red" : "blue")
-//     }
-//
-//     return (
-//         <div>
-//             <Square color={color1} onClick={handle1}/>
-//             <Square color={color2} onClick={handle2}/>
-//         </div>
-//     )
-// }
+
 import React, { Component } from 'react';
 import Square from "./components/Square/Square.jsx";
 class App extends Component {
